@@ -10974,3 +10974,6 @@ section.resume-section .resume-section-content {
 span.text-primary.ms-3.experience-date {
     color: #bd5d38 !important;
 }
+.text-primary.ms-3.experience-date.mb-2 {
+  color: #bd5d38 !important;
+}
