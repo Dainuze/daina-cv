@@ -10977,43 +10977,21 @@ span.text-primary.ms-3.experience-date {
 .text-primary.ms-3.experience-date.mb-2 {
   color: #bd5d38 !important;
 }
-.icon-group {
+.icon-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center the group horizontally */
-  align-items: center;
-  gap: 40px;
-  margin-top: 20px;
-  text-align: center;
+  justify-content: flex-start; /* aligns to the left */
+  gap: 2rem;
+  padding-left: 0; /* aligns with heading */
+  margin-left: 0;
 }
 
 .icon-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center icons inside each item */
-  justify-content: center;
-  max-width: 120px;
-  font-size: 14px;
+  text-align: center;
+  min-width: 100px;
 }
 
-.icon-item img {
-  margin: 5px;
-  max-width: 100%;
-  height: auto;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 600px) {
-  .icon-group {
-    gap: 20px;
-  }
-
-  .icon-item {
-    max-width: 90px;
-    font-size: 12px;
-  }
-
-  .icon-item img {
-    width: 30px;
-  }
+.icon-item p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
 }
