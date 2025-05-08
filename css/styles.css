@@ -8038,6 +8038,7 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: #ffc107cf !important;
+  font-family: 'Comic Neue', cursive;
 }
 
 .text-secondary {
