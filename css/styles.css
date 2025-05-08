@@ -10980,17 +10980,19 @@ span.text-primary.ms-3.experience-date {
 .icon-group {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; /* Center the group horizontally */
+  align-items: center;
   gap: 40px;
   margin-top: 20px;
+  text-align: center;
 }
 
 .icon-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Center icons inside each item */
+  justify-content: center;
   max-width: 120px;
-  text-align: center;
   font-size: 14px;
 }
 
@@ -11000,15 +11002,15 @@ span.text-primary.ms-3.experience-date {
   height: auto;
 }
 
-/* Optional: Mobile optimization */
+/* Mobile responsiveness */
 @media (max-width: 600px) {
+  .icon-group {
+    gap: 20px;
+  }
+
   .icon-item {
     max-width: 90px;
     font-size: 12px;
-  }
-
-  .icon-group {
-    gap: 20px;
   }
 
   .icon-item img {
