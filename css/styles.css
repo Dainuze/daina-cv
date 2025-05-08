@@ -10979,14 +10979,19 @@ span.text-primary.ms-3.experience-date {
 }
 .icon-row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start; /* aligns to the left */
+  flex-direction: row;       /* Ensures horizontal layout */
+  flex-wrap: wrap;           /* Allows wrapping on small screens */
+  justify-content: flex-start; 
+  align-items: flex-start;
   gap: 2rem;
-  padding-left: 0; /* aligns with heading */
-  margin-left: 0;
+  margin-top: 1rem;
+  padding-left: 0;
 }
 
 .icon-item {
+  display: flex;
+  flex-direction: column;    /* Stack icons and label vertically */
+  align-items: center;       /* Center each item’s content */
   text-align: center;
   min-width: 100px;
 }
