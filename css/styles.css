@@ -10990,7 +10990,7 @@ span.text-primary.ms-3.experience-date {
 
 .icon-item {
   display: flex;
-  flex-direction: column;    /* Stack icons and label vertically */
+  flex-direction: row;    /* Stack icons and label vertically */
   align-items: center;       /* Center each item’s content */
   text-align: center;
   min-width: 100px;
