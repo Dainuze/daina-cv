@@ -1,7 +1,6 @@
-## Hi there 👋
+## Hello👋
 
-You can find my Github CV [here](https://dainuze.github.io/daina-cv/).
-I've edited CSS and HTML (original template [is here](https://startbootstrap.com/previews/resume)).
+I am glad to present my CV [here](https://dainuze.github.io/daina-cv/), a version built upon [this template](https://startbootstrap.com/previews/resume) with my own HTML and CSS customizations.
 
 <!--
 **Dainuze/Dainuze** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
