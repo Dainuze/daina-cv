@@ -11000,3 +11000,9 @@ span.text-primary.ms-3.experience-date {
   margin-top: 0.5rem;
   font-size: 1rem;
 }
+.fa-ul>li {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
